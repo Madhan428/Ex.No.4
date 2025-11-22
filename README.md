@@ -1,91 +1,119 @@
-# Exno.4-Scenario-Based Report Development Utilizing Diverse Prompting Techniques                                                                  
-### REGISTER NUMBER : 212222060138
-### Aim: 
-To design an AI-powered chatbot that assists customers in resolving issues related to product troubleshooting, order tracking, and general inquiries. The chatbot should handle various customer queries efficiently while maintaining a conversational and user-friendly tone. In this experiment, we will employ different prompt patterns to guide the development process of the chatbot, ranging from basic task-oriented prompts to more complex, persona-driven prompts. Case study 2 with Comparative Analysis Prompt, Comparative Analysis Prompt and Prompt Size Limitations
+[# Ex.No.4-Scenario-Based Report Development Utilizing Diverse Prompting Techniques
+### DATE:                                                                          
+### REGISTER NUMBER :
+### Aim: To design an AI-powered chatbot that assists customers in resolving issues related to product troubleshooting, order tracking, and general inquiries. The chatbot should handle various customer queries efficiently while maintaining a conversational and user-friendly tone. In this experiment, we will employ different prompt patterns to guide the development process of the chatbot, ranging from basic task-oriented prompts to more complex, persona-driven prompts. Case study 2 with Comparative Analysis Prompt, Universal Prompt, Structures Prompt Refinements and Prompt Size Limitations
 
 ### Explanation - Any one use case from Unit 5 and generate the report for that with the unit 2 Prompt type
-Procedure:
-1.	Define the Scenario and Use Case:
-Scenario:
-The manufacturing industry is looking to reduce manual monitoring and increase efficiency through automation. The system will utilize IoT devices and embedded controllers to automate equipment, monitor performance, and enable predictive maintenance. The goal is to streamline the production process, minimize downtime, and enhance energy efficiency.
-Target Audience:
-Manufacturing companies, specifically in sectors like automotive, electronics, and food processing, where automation can significantly improve productivity.
+# 🚘 AI-Powered Prompting Experiment: Self-Driving Cars at Crowded Intersections
+
+## 📌 Scenario
+How can self-driving cars prioritize safety when navigating crowded intersections?
+
+Self-driving cars face complex decision-making challenges in crowded intersections where pedestrians, cyclists, and vehicles move unpredictably.  
+The aim of this experiment is to apply *different AI prompting techniques* to analyze strategies, compare alternatives, and evaluate the effectiveness of *safety-first navigation*.
+
+---
+
+## 🔹 1. Comparative Analysis Prompt
+### 📝 Prompt Example
+> Compare how self-driving cars can prioritize safety at crowded intersections using three different approaches:  
+> 1. Sensor fusion with LiDAR + cameras  
+> 2. Vehicle-to-Everything (V2X) communication  
+> 3. AI-based risk prediction models.  
+> Highlight strengths, weaknesses, and best use cases.
+
+### 🤖 AI Response (Expected)
+- *Sensor fusion (LiDAR + cameras):* High accuracy in object detection but limited in bad weather.  
+- *V2X communication:* Enhances coordination, but depends on infrastructure and other vehicles being compatible.  
+- *AI-based risk prediction:* Learns patterns of pedestrian/vehicle behavior but requires huge datasets.
+
+*✅ Comparative Insight:*  
+- Sensor fusion ensures *real-time awareness*  
+- V2X improves *coordination*  
+- AI prediction adds *foresight*  
+➡ *Best solution: Combine all three.*
+
+---
+
+## 🔹 2. Comparative Analysis Prompt (Alternative Framing)
+### 📝 Prompt Example
+> Evaluate how safety prioritization differs when self-driving cars adopt a *conservative decision-making model* versus an *assertive decision-making model* at intersections. Which approach minimizes accidents and which ensures smoother traffic flow?
+
+### 🤖 AI Response (Expected)
+- *Conservative model:* Stops frequently, minimizes collisions, ensures pedestrian safety.  
+- *Assertive model:* Reduces traffic congestion, may take calculated risks.  
+
+*✅ Comparative Insight:*  
+- Conservative = *safer but less efficient*  
+- Assertive = *smoother flow but riskier*  
+➡ Best = *Hybrid adaptive model (context-aware switching).*
+
+---
+
+## 🔹 3. Prompt Size Limitations Technique
+### Short Prompt
+*Prompt:* "How should self-driving cars ensure safety at busy intersections?"  
+*AI Response:* Use sensors, predict movements, obey traffic laws, prioritize pedestrians.
+
+### Extended Prompt
+*Prompt:* "Explain how self-driving cars can ensure safety at crowded intersections by addressing pedestrian unpredictability, multi-vehicle interactions, weather interference, and ethical trade-offs in accident-prevention decisions."  
+*AI Response:* Multi-layered strategies → advanced perception, V2X integration, ethical decision frameworks, redundancies.
+
+*✅ Observation:*  
+- *Short prompts* = General, surface-level responses  
+- *Extended prompts* = Rich, structured insights
+
+---
+
+<img width="1200" height="550" alt="what_are_self_driving_cars_5cc91378cd" src="https://github.com/user-attachments/assets/49461def-cee2-4d1c-a673-6517f3acf543" />
 
 
-Main Objectives:
+## 🔹 4. Experiment Setup
+- *Objective:* Assess how different prompting techniques guide AI to propose effective safety strategies.  
+- *Method:* Use comparative analysis prompts, reframe them, and test short vs. detailed variations.  
+- *Data:* Research on autonomous driving safety + AI-generated responses.  
+- *Evaluation Metric:* Depth, clarity, practicality of responses.
 
-•	Improve production efficiency by 30%.
-•	Minimize machinery downtime with predictive maintenance.
-•	Enable real-time monitoring and remote control of manufacturing systems.
-•	Reduce energy consumption by optimizing processes.
- 
-2.	Identify Prompt Patterns for Each Design Aspect:
-Idea Generation Prompts:
+---
 
-•	Prompt: “What features can be incorporated into the automation system to optimize production and reduce downtime?” Generated Ideas:
-•	Sensors for real-time monitoring of equipment performance.
-•	Predictive maintenance alerts to anticipate equipment failures.
-•	Energy usage optimization by automating the switching of machines on/off based on demand.
-•	Cloud-based dashboards for remote monitoring and control of machinery.
+## 🔹 5. Results and Analysis
+- *Comparative prompts* → Show strengths & weaknesses of safety methods.  
+- *Alternative framing* → Reveals trade-offs between safety vs. efficiency.  
+- *Prompt size variations* → Prove that richer prompts extract *more scenario-specific strategies*.
 
-Persona and Context Prompts:
+---
 
-•	Prompt: “What should the user interface and control system convey to the operators and managers?” Generated Context:
-•	The user interface should be intuitive and provide real-time data on machine performance, energy usage, and alerts.
-•	The system should convey reliability and ease of use, with minimal training required for operators.
-
-# Scenario Prompt:
-"A customer has purchased a smart thermostat and is having trouble setting it up. They contact the chatbot for assistance. The customer says: 'I’ve just received my smart thermostat, but I’m not sure how to install it. Can you help me set it up?'
-
-### 1.Prompt Type: Experiential Perspective Prompt
-Prompt:
-
-“From the perspective of a technical support agent, how would you assist a customer in setting up a smart thermostat?”
-
-Expected Output:
-
-“Of course! First, let's ensure your thermostat is properly connected to your Wi-Fi network. Please locate the mounting bracket and connect the wires as per the manual. Once that’s done, turn on the device and follow the on-screen instructions to pair it with the app on your phone. After you’re connected, I’ll guide you through the temperature settings and customization options. If you encounter any issues along the way, don’t hesitate to ask, and I’ll be happy to assist!”
-
-Scenario Prompt:
-
-"A customer is tracking an order they placed for a laptop but has encountered an issue where the tracking page does not show any updates. The customer says: 'I’ve been checking the tracking status for my laptop order, but it hasn’t updated in days. Can you check the status for me?'
-
-### 2.Prompt Type: Comparative Analysis Prompt
-Prompt:
-
-“Compare how a rule-based chatbot and a machine-learning model would respond to this customer inquiry about an order status update.”
-
-Expected Output:
-
-“A rule-based chatbot might provide a fixed response such as: ‘Please allow up to 72 hours for shipping updates. For further assistance, contact customer service.’ It is efficient but may not fully address the customer’s concerns. A machine-learning chatbot, however, would likely respond with something like: ‘I understand your frustration. I’ve checked your order status and see that the carrier hasn’t updated the tracking yet. Sometimes delays happen in the system. I’ve escalated this issue to the delivery team, and you’ll receive an update within 24 hours. Thank you for your patience.’ This is more personalized, showing empathy and taking proactive action.”
-
-Scenario Prompt:
-
-"A customer has a general inquiry: 'How do I contact customer support if I need help with my order?'
-
-### 3.Prompt Type: Prompt Size Limitations
-Prompt:
-
-“Generate a response in under 150 tokens to a customer asking how they can contact customer support for help with their order.”
-
-Expected Output:
-
-“You can contact customer support anytime by visiting our ‘Contact Us’ page. You can reach us via email, phone, or live chat. If your inquiry is order-related, make sure to have your order number ready for quicker assistance. We’re here to help 24/7!”
-
-# Report:
-| **Prompt Technique**             | **Purpose**                                                | **Use Cases**                                   | **Benefits**                                                  |
-|----------------------------------|------------------------------------------------------------|-------------------------------------------------|---------------------------------------------------------------|
-| **Experiential Perspective Prompt** | Provides a more subjective or empathetic response based on experience | Troubleshooting, personalized support           | Builds empathy, helps create a more conversational tone, adds personalization to responses. |
-| **Comparative Analysis Prompt**   | Encourages a comparison between two or more entities to highlight differences | Order status, product feature comparisons, issue resolution | Provides a deeper understanding of options, contrasts and informs decisions effectively. |
-| **Prompt Size Limitations**       | Generates concise responses while respecting character/word limits | Short inquiries, quick answers, FAQs           | Ensures clarity and brevity, ideal for time-sensitive or constrained environments. |
+![06 22 2017_Blog_B](https://github.com/user-attachments/assets/d50052ec-42db-45b5-b57e-343a50ab9275)
 
 
+## 🔹 6. Comparative Analysis Table
+
+| *Approach* | *How It Works* | *Advantages* | *Limitations* | *Best Use Cases* |
+|--------------|------------------|----------------|-----------------|--------------------|
+| *Sensor Fusion (LiDAR + Cameras)* | Combines sensors for real-time detection. | High accuracy, redundancy, robust tracking. | Expensive, weak in fog/rain/snow. | Urban intersections with high pedestrian density. |
+| *Vehicle-to-Everything (V2X)* | Communication with cars + infrastructure. | Better coordination, reduced collisions. | Needs infrastructure + compatible vehicles. | Smart cities with connected systems. |
+| *AI Risk Prediction Models* | Predicts behavior using data. | Anticipates human unpredictability. | Data-heavy, potential bias. | Complex intersections with mixed traffic. |
+| *Conservative Model* | Cautious, frequent stops. | Safer for pedestrians. | Slow, frustrates drivers. | Pedestrian-heavy intersections. |
+| *Assertive Model* | Takes calculated risks. | Smoother traffic flow. | Higher risk of near-misses. | Highways, merges. |
+| *Hybrid Adaptive* | Switches between approaches. | Balances safety & efficiency. | Complex tuning. | Crowded intersections with variable density. |
+
+---
 
 
-![image](https://github.com/user-attachments/assets/80a837d5-8ed6-4da9-b825-cee5f2903d10)
-![image](https://github.com/user-attachments/assets/febc17bf-bdab-4d3b-910e-f3ae29f21bcd)
-![image](https://github.com/user-attachments/assets/afa4d59a-3503-4d42-a8fa-d64f31329f73)
+## 🔹 7. Flowchart
+<img width="715" height="725" alt="self_driving_safety_flowchart" src="https://github.com/user-attachments/assets/9c7e08a1-ab21-43fc-a904-04a418459450" />
 
-# Result: 
-Thus the Prompts were exected succcessfully.
+
+## 🔹 8. Conclusion
+This experiment shows that *prompt design critically affects AI-generated insights* in self-driving car safety.  
+
+- *Comparative prompts* → Structure trade-offs clearly.  
+- *Alternative framing* → Balances philosophy (safety vs. flow).  
+- *Prompt size* → Longer = Deeper insights.  
+
+➡ In real-world applications, *precise, structured, and context-rich prompts* are essential for guiding AI in the development of *safe self-driving cars*.
+
+# Result: Thus the Prompts were exected succcessfully.
+
+](https://github.com/Madhan428/Ex.No.4)
 
